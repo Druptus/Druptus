@@ -14,8 +14,8 @@
 <p align="center">
   <img align="center" alt="druptus's activity" src="https://github-readme-activity-graph.vercel.app/graph?username=druptus&theme=tokyo-night&area=true&radius=0&hide_border=true" />
   <img align="left" alt="druptus's most used languages" src="https://github-readme-stats-druptus.vercel.app/api/top-langs/?username=druptus&langs_count=11&size_weight=0.5&count_weight=0.5&border_radius=0&theme=tokyonight&hide_border=true" />
-  <img align="right" alt="druptus's Github Stats" src="https://github-readme-stats-druptus.vercel.app/api?username=druptus&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&border_radius=0&theme=tokyonight&hide_border=true" />
-  <img align="right" alt="druptus's longest streak" src="https://github-readme-streak-stats.herokuapp.com/?user={druptus}&border_radius=0&theme=tokyonight&hide_border=true" />
+  <img align="right" alt="druptus's Github Stats" src="https://github-readme-stats-druptus.vercel.app/api?username=druptus&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&border_radius=0&theme=tokyonight&hide_border=true&card_width=500" />
+  <img align="right" alt="druptus's longest streak" src="https://github-readme-streak-stats.herokuapp.com/?user={druptus}&border_radius=0&theme=tokyonight&hide_border=true&card_width=500" />
 </p>
 
 <br clear="all">
