@@ -46,7 +46,7 @@
 
 <details>
   <summary>Github Stats</summary>
-  <img align="left" alt="druptus's Github Stats" src="https://github-readme-stats.druptus.vercel.app/api?username=druptus&show_icons=true&hide_border=true" />
+  [![Druptus's GitHub stats](https://github-readme-stats-druptus.vercel.app/api?username=druptus)](https://github.com/druptus/github-readme-stats)
 </details>
 <!--
 **Druptus/Druptus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
