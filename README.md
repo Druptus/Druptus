@@ -24,14 +24,31 @@
   <img src="https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white"/>
 </p>
 
-<p align="center">
-  <img align="center" alt="druptus's activity" src="https://github-readme-activity-graph.vercel.app/graph?username=druptus&theme=tokyo-night&area=true&radius=0&hide_border=true" />
-  <img align="left" alt="druptus's most used languages" src="https://github-readme-stats-druptus.vercel.app/api/top-langs/?username=druptus&langs_count=11&size_weight=0.5&count_weight=0.5&border_radius=0&theme=tokyonight&hide_border=true" />
-  <img align="right" alt="druptus's Github Stats" src="https://github-readme-stats-druptus.vercel.app/api?username=druptus&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&border_radius=0&theme=tokyonight&hide_border=true&card_width=500" />
-  <img align="right" alt="druptus's longest streak" src="https://github-readme-streak-stats.herokuapp.com/?user={druptus}&border_radius=0&theme=tokyonight&hide_border=true&card_width=500" />
-</p>
-
-<br clear="all">
+---
+<!--
+  TODO: ADD SELF-HOSTING EVENTUALLY VIA VERCEL: https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file
+  TODO: ADD FALLBACK IMAGES STORED IN THE REPO IN CASE OF OUTAGE/DOWNTIME VIA AUTOMATED ACTION
+  NOTE: FALLBACK IMAGES VIA <object> TAGS and USE .yml cron scheduled action
+  TODO: ADD SELF UPDATING IMAGES (curl requests with -X PURGE)
+-->
+<table style="table-layout: fixed; width: 100%;" align="center">
+  <tr>
+    <td colspan="3">
+      <img align="center" alt="druptus's activity" width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=druptus&theme=tokyo-night&area=true&radius=0&hide_border=true" />
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 33.4%;" align="center">
+      <img style="width: 100%; height: 100%; display: block;" alt="druptus's most used languages" src="https://github-readme-stats-druptus.vercel.app/api/top-langs/?username=druptus&langs_count=20&size_weight=0.5&count_weight=0.5&border_radius=0&theme=tokyonight&hide_border=true&layout=compact" />
+    </td>
+    <td style="width: 33.3%;" align="center">
+      <img style="width: 100%; height: 100%; display: block;" alt="druptus's Github Stats" src="https://github-readme-stats-druptus.vercel.app/api?username=druptus&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&border_radius=0&theme=tokyonight&hide_border=true" />
+    </td>
+    <td style="width: 33.3%;" align="center">
+      <img style="width: 100%; height: 100%; display: block;" alt="druptus's longest streak" src="https://github-readme-streak-stats.herokuapp.com/?user={druptus}&border_radius=0&theme=tokyonight&hide_border=true" />
+    </td>
+  </tr>
+</table>
 
 <!--
 **Druptus/Druptus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
