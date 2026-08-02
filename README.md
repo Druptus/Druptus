@@ -54,25 +54,22 @@
 
 <!--
   TODO: ADD SELF-HOSTING EVENTUALLY VIA VERCEL: https://github.com/DenverCoder1/github-readme-streak-stats?tab=readme-ov-file
-  TODO: ADD FALLBACK IMAGES STORED IN THE REPO IN CASE OF OUTAGE/DOWNTIME VIA AUTOMATED ACTION
-  NOTE: FALLBACK IMAGES VIA <object> TAGS and USE .yml cron scheduled action
-  TODO: ADD SELF UPDATING IMAGES (curl requests with -X PURGE)
 -->
 <table style="table-layout: fixed; width: 100%; border-collapse: collapse; border-spacing: 0;" align="center" cellpadding="0" cellspacing="0">
   <tr>
     <td colspan="3" style="padding: 0;">
-      <img align="center" alt="druptus's activity" width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=druptus&theme=tokyo-night&area=true&radius=0&hide_border=true" style="display: block;" />
+      <img align="center" alt="druptus's activity" width="100%" src="assets/stats/activity-graph.svg" style="display: block;" />
     </td>
   </tr>
   <tr>
     <td style="width: 33.3%; padding: 0;" align="center">
-      <img style="width: 100%; height: 100%; display: block;" alt="druptus's most used languages" src="https://github-readme-stats-druptus.vercel.app/api/top-langs/?username=druptus&langs_count=20&size_weight=0.5&count_weight=0.5&border_radius=0&theme=tokyonight&hide_border=true&layout=compact" />
+      <img style="width: 100%; height: 100%; display: block;" alt="druptus's most used languages" src="assets/stats/top-langs.svg" />
     </td>
     <td style="width: 33.3%; padding: 0;" align="center">
-      <img style="width: 100%; height: 100%; display: block;" alt="druptus's Github Stats" src="https://github-readme-stats-druptus.vercel.app/api?username=druptus&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&border_radius=0&theme=tokyonight&hide_border=true" />
+      <img style="width: 100%; height: 100%; display: block;" alt="druptus's Github Stats" src="assets/stats/github-stats.svg" />
     </td>
     <td style="width: 33.3%; padding: 0;" align="center">
-      <img style="width: 100%; height: 100%; display: block;" alt="druptus's longest streak" src="https://github-readme-streak-stats.herokuapp.com/?user=druptus&border_radius=0&theme=tokyonight&hide_border=true" />
+      <img style="width: 100%; height: 100%; display: block;" alt="druptus's longest streak" src="assets/stats/streak-stats.svg" />
     </td>
   </tr>
 </table>
