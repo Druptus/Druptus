@@ -1,0 +1,39 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    # Run through cron at midnight (UTC) every day
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allow running manually through Actions
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Create asset directory
+        run: mkdir -p assets/stats
+
+      - name: Download Activity Graph
+        run: curl -s "https://github-readme-activity-graph.vercel.app/graph?username=druptus&theme=tokyo-night&area=true&radius=0&hide_border=true" -o assets/stats/activity-graph.svg
+
+      - name: Download Top Languages
+        run: curl -s "https://github-readme-stats-druptus.vercel.app/api/top-langs/?username=druptus&langs_count=20&size_weight=0.5&count_weight=0.5&border_radius=0&theme=tokyonight&hide_border=true&layout=compact" -o assets/stats/top-langs.svg
+
+      - name: Download GitHub Stats
+        run: curl -s "https://github-readme-stats-druptus.vercel.app/api?username=druptus&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&border_radius=0&theme=tokyonight&hide_border=true" -o assets/stats/github-stats.svg
+
+      - name: Download Streak Stats
+        # TODO: replace url with vercel one once setup
+        run: curl -s "https://github-readme-streak-stats.herokuapp.com/?user=druptus&border_radius=0&theme=tokyonight&hide_border=true" -o assets/stats/streak-stats.svg
+
+      - name: Commit and Push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats/*.svg
+          # If no change in stats, prevent action failure
+          git commit -m "chore: update github stat SVGs" || echo "No changes to commit"
+          git push
